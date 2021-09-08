@@ -1,0 +1,42 @@
+h1 {
+ color: #ff0000;
+ background-color: #000000;
+}
+
+h2 {
+ color: #ff0000;
+ background-color: #000000;
+}
+
+
+ h3 {
+   background-color #008000;
+}
+
+p {
+  color: #ff0000;
+  background-color: blue;
+}
+
+a:link {color: #FF0000;
+}
+
+
+a:visited {color: #008000;
+}
+
+a:hover {color: #FFFF00 ;
+}
+
+
+#divexample p
+{color: #0000FF ;
+}
+
+.divclass
+{color: black ;
+}
+
+#greenspan
+{color:green ;
+}
