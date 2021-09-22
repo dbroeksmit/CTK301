@@ -1,39 +1,94 @@
-/* This is my new stylesheet */
 
-/*
-p {
- color: #ff0000;
- background-color: #0000FF;
 
+.imgbox {
+border: 0px solid #000000;
+padding: 0px 0px 00px 00px;
+margin: 30px 0px 0px 210px;
+background-color: #ffffff;
 }
-*/
 
 h1 {
-  color: #FFFFFF;
-  background-color: #80CBB3;
+font-style: impact;
+font-weight: normal;
+text-align: center;
+font-weight: bold;
+font-size: 100px;
+margin: 120px 60px 0px 90px;
+color: #6699ff;
+
+}
+
+h2 {
+  font-style: impact;
+  text-align: right;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 15px;
+  margin:
+}
+
+.bottomtext{
+  font-style: normal;
+  text-align: center;
+  color: #6699ff;
+  margin-top: 560px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+
+}
+
+
+.blueboldspan
+{color:  #6699ff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+
+}
+
+.bluenotboldspan
+{color:  #6699ff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.link
+{color:  #6699ff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: px;
+  margin-top: 80px;
 }
 
 a {
- color: #ff0000;
- text-decoration; none;
+ color: #6699ff;
+ font-weight: bold;
+ text-decoration: none;
+
 }
 
 a:hover {
- color: #0000FF;
- text-decoration; underline;
+ color: #ffb84d;
+ text-decoration: underline;
 }
 
-#divexample {
-  color: #0000FF;
-  background-color: #FFFF00;
+
+
+#orangeospan
+{color:   #ffb84d;
+font-style: normal;
+font-weight: bold;
+font-size: 100px;
 }
 
-#specialid {
- color: #00FF00;
- background-color: #000000;
-}
 
-.specialp {
-    color: #00FF00;
-    background-color: #FFFFFF;
+body {
+background-color: none;
+background-image: url(Soul.png);
+background-repeat: no-repeat;
+width: 600px;
 }
