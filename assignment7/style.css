@@ -1,0 +1,222 @@
+h1 {
+padding-left: 20px;
+font-style: normal;
+color:#34cfeb;
+background: rgb(28,146,239);
+background: linear-gradient(90deg, rgba(28,146,239,1) 3%, rgba(0,212,255,1) 89%, rgba(2,0,36,1) 100%);
+grid-column: span 12;
+
+}
+
+header {
+  padding-left: 20px;
+  background: rgb(28,146,239);
+  background: linear-gradient(90deg, rgba(28,146,239,1) 3%, rgba(0,212,255,1) 89%, rgba(2,0,36,1) 100%);
+  grid-column: span 12;
+
+}
+
+.tables{
+  float: right; 
+}
+
+h1 a {
+color: #34cfeb;
+
+}
+
+h2 {
+  font-style: normal;
+  color: #34a4eb;
+  border-bottom: 4px solid #34a4eb;
+  grid-column: span 12;
+  padding-left: 20px;
+}
+
+main {
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.table{
+  color: red;
+}
+
+.table a{
+  text-decoration: none;
+  color: red;
+}
+
+.table a:hover{
+  color: blue;
+}
+
+.job{
+  color: red;
+}
+
+.job a{
+  text-decoratioN: none;
+  color: red;
+}
+
+.job a:hover{
+  color: blue;
+}
+
+.sunday {
+  color: red;
+}
+
+.sunday a {
+  text-decoration: none;
+  color: red;
+}
+
+.sunday a:hover: {
+  color: blue;
+}
+
+.det{
+  color: red;
+}
+
+.det a{
+  text-decoration: none;
+  color: red;
+}
+
+.det a:hover{
+  color: blue;
+}
+
+.bart {
+  color: red;
+}
+.bart a {
+text-decoration: none;
+color: red;
+}
+
+.bart a:hover {
+  color: blue;
+}
+
+.flash {
+  color: red;
+}
+
+.flash a {
+text-decoration: none;
+color: red;
+}
+
+.flash a:hover {
+  color: blue;
+}
+
+.shops {
+  color: red;
+}
+
+.shops a {
+  text-decoration: none;
+  color: red;
+
+}
+
+.shops a:hover{
+  color: blue;
+}
+
+.dan {
+float: left;
+margin-right: 1em;
+}
+
+aside{
+  padding: 0 20px;
+}
+
+.jobpara{
+  font-weight: bold;
+  grid-column: span 12;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.paragraph {
+  font-weight: bold;
+  grid-column: span 12;
+  margin-left: 20px;
+}
+
+.woodmark_isu{
+  border: 2px solid black;
+  grid-column: span 12;
+
+}
+
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  border: 5px solid blue;
+  background-color: none;
+  display: grid;
+  grid-template-rows: repeat(12), 1fr;
+}
+
+
+nav{
+  grid-column: span 12;
+  padding-left: 10px;
+  background-color: rgb(28,146,239);
+background: linear-gradient(90deg, rgba(28,146,239,1) 3%, rgba(0,212,255,1) 89%, rgba(2,0,36,1) 100%);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline-block;
+  width: 220px;
+}
+
+nav a {
+text-decoration: none;
+color: green;
+background-color: rgb(28,146,239);
+background: linear-gradient(90deg, rgba(28,146,239,1) 3%, rgba(0,212,255,1) 89%, rgba(2,0,36,1) 100%);
+padding: 10px;
+border: 1px solid black;
+display: block;
+grid-template-rows: span 3;
+
+}
+
+
+nav a:hover{
+  color: white;
+  background-color: green;
+}
+
+aside{
+  grid-column: span 12;
+}
+
+main{
+  padding-left: 20px;
+  grid-column: span 12;
+}
+
+footer{
+  background-color: red;
+  grid-column: span 12;
+  border: 5px solid blue;
+  margin: 0;
+  padding: 0;
+}
