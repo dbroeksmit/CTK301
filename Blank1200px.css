@@ -1,0 +1,71 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  margin-top: 2em; 
+  padding-top: 24px auto;
+  grid-column: span 12;
+  background-color: #1791EB;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding-left: 1em;
+
+}
+
+#mainimg {
+  grid-column: span 8;
+}
+
+#mainimg img {
+  width: 100%;
+}
+/* style for dummy columns, delete and replace with your own CSS */
+nav {
+  grid-column: span 4 ;
+}
+
+nav ul {
+  list-style: none ;
+  margin: 0 ;
+  padding: 0 ;
+}
+
+nav li {
+  margin-bottom : 1em;
+}
+
+nav li a {
+  display: block;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 24px;
+  font-size: 32px;
+  text-align: center;
+}
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+article{
+
+}
