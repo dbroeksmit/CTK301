@@ -30,7 +30,7 @@ h1 {
 }
 
 footer {
-  font-size: 50px; 
+  font-size: 50px;
 }
 
 h1 img {
@@ -67,6 +67,27 @@ nav li a {
 
 }
 
+
+.basket{
+  width: 100%;
+}
+
+.welcome {
+  text-align: center;
+  grid-column: span 8 ;
+}
+
+.home {
+  text-align: center;
+  grid-column: span 8 ;
+}
+
+.contact {
+  text-align : center;
+  font-size: 8;
+  grid-column: span 8; 
+}
+
 main{
   font-family: 'Zen Kurenaido', sans-serif;
   grid-column: span 12;
@@ -75,5 +96,7 @@ main{
 }
 
 article{
+  grid-column: span 3;
+
 
 }
